@@ -27,5 +27,8 @@ function adicionarAmigo() {
     let item = document.createElement("li");
     item.textContent = nome;
 
-  
+    lista.appendChild(item);
+
+    // Limpa o campo da entrada
+    nomeInput.value = "";
 }
