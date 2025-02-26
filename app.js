@@ -11,7 +11,7 @@ function adicionarPana() {
     let nomeInput = document.getElementById("amigo");
     let nome = nomeInput.value.trim();
     let lista = document.getElementById("listaAmigos");
-    alert 
+
     if (!nome) {
         alert("Por favor adicione um nome, para continuar com o sorteio");
         return;
