@@ -13,7 +13,7 @@ function adicionarPana() {
     let lista = document.getElementById("listaAmigos");
     alert 
     if (!nome) {
-        alert("Por favor, insira um nome válido.");
+        alert("Por favor adicione um nome, para continuar com o sorteio");
         return;
     }
 
