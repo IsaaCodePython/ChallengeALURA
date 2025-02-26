@@ -11,4 +11,10 @@ function adicionarPana() {
     let nomeInput = document.getElementById("amigo");
     let nome = nomeInput.value.trim();
     let lista = document.getElementById("listaAmigos");
+    alert 
+    if (!nome) {
+        alert("Por favor, insira um nome válido.");
+        return;
+    }
+
 }
