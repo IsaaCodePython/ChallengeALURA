@@ -16,5 +16,5 @@ function adicionarAmigo() {
         alert("Por favor adicione um nome, para continuar com o sorteio");
         return;
     }
-
 }
+listadeAmigos.push(nome);
