@@ -8,6 +8,7 @@ subtitulo.innerHTML = 'Digite o nome dos seus amigos';
 // Armazenamento da lista de amigos
 let listadeAmigos = [];
 
+// Função para adicionar amigos
 function adicionarAmigo() {
     console.log('O botão foi clicado');
 
@@ -27,20 +28,23 @@ function adicionarAmigo() {
     let item = document.createElement("li");
     item.textContent = nome;
 
+    // Adicionar o <li> à lista <ul>
     lista.appendChild(item);
 
     // Limpa o campo da entrada
     nomeInput.value = "";
 }
-// Funcao para sorteio 
+
+// Função para sorteio
 function sortearAmigo() {
     let resultado = document.getElementById("resultado");
 
     if (listadeAmigos.length === 0) {
-        alert("Adicione um nome para realizar o sorteio.");
-        return;
-    
-        // Sorteia um indice aleatorio da lista
+        alert("Adicione pelo menos um nome para realizar o sorteio.");
+        return; // Encerra a função se a lista estiver vazia
+    }
+
+    // Sorteia um índice aleatório da lista
     let indiceSorteado = Math.floor(Math.random() * listadeAmigos.length);
     let amigoSorteado = listadeAmigos[indiceSorteado];
 
