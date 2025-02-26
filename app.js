@@ -39,10 +39,11 @@ function sortearAmigo() {
     if (listadeAmigos.length === 0) {
         alert("Adicione um nome para realizar o sorteio.");
         return;
-    }
+    
         // Sorteia um indice aleatorio da lista
     let indiceSorteado = Math.floor(Math.random() * listadeAmigos.length);
     let amigoSorteado = listadeAmigos[indiceSorteado];
 
     // Exibe o resultado na tela
     resultado.innerHTML = `<li>O amigo secreto é: <strong>${amigoSorteado}</strong></li>`;
+}
