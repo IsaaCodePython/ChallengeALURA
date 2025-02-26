@@ -6,7 +6,7 @@ subtitulo.innerHTML = 'digite o nome do seus amigos';
 // armazenagem da ID Lista de amigos nomes
 let listadeAmigos = [];
 // funções 
-function adicionarPana() {
+function adicionarAmigo() {
     console.log ('o botao foi clicado');
     let nomeInput = document.getElementById("amigo");
     let nome = nomeInput.value.trim();
