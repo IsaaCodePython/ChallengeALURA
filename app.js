@@ -8,6 +8,6 @@ subtitulo.innerHTML = 'digite o nome do seus amigos';
 function adicionarPana() {
     console.log ('o botao foi clicado');
     let adicionarPana = document.getElementById("adicionar");
-    let adicionar = nomeInput.value;
+    let adicionar = adicionar.value;
     let listaDePanas = [];
 }
