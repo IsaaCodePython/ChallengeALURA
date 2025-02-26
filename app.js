@@ -32,3 +32,10 @@ function adicionarAmigo() {
     // Limpa o campo da entrada
     nomeInput.value = "";
 }
+// Funcao para sorteio 
+function sortearAmigo() {
+    let resultado = document.getElementById("resultado");
+
+    if (listadeAmigos.length === 0) {
+        alert("Adicione pelo menos um nome para realizar o sorteio.");
+        return;
