@@ -7,7 +7,7 @@ subtitulo.innerHTML = 'digite o nome do seus amigos';
 // funções 
 function adicionarPana() {
     console.log ('o botao foi clicado');
-    let nomeInput = document.getElementById("nomeInput");
+    let nomeInput = document.getElementById("amigo");
     let nome = nomeInput.value.trim();
     let listaDePanas = [];
 }
